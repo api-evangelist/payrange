@@ -1,8 +1,25 @@
 aid: payrange
-name: PayRange *
-description: 'PayRange * is a company surfaced as a portfolio company of gv, matrix-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payrange.png
+name: PayRange
+description: 'PayRange is a fintech company providing cashless commerce and self-service
+  retail technology for unattended machines. Its platform enables mobile payments,
+  age and identity verification, and access control across laundromats, vending, car
+  washes, campgrounds, hospitality, micro-markets, coffee, and transit ticketing.
+  Hardware includes the BluKey family, BluCheck, and PayStation, paired with a consumer
+  mobile app and an operator Business Management Suite. Backed by GV and Matrix Partners.
+  No public developer API, documentation, or SDK surface was found during enrichment;
+  integrations appear to run through direct partner and licensing channels.'
 url: https://raw.githubusercontent.com/api-evangelist/payrange/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Payments
+- Fintech
+- Mobile Payments
+- Unattended Retail
+- Vending
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/payrange-domain-security.yml
 - type: Website
-  url: http://payrange.com
+  url: https://www.payrange.com
+- type: Support
+  url: https://support.payrange.com/hc/en-us/categories/360006635452-Operator-Support
+- type: Blog
+  url: https://www.payrange.com/blog/
+- type: Pricing
+  url: https://www.payrange.com/payrange-pricing-plans/
+- type: Login
+  url: https://manage.payrange.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
