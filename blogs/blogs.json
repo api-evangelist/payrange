@@ -3,12 +3,9 @@
   "feeds": [
     {
       "source": "https://support.payrange.com/hc/en-us/categories/360006635452-Operator-Support",
-      "feed_url": "https://support.payrange.com/hc/en-us/categories/360006635452-Operator-Support",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "URLError"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-09-06T19:17:18Z"
+  "fetched": "2026-09-13T13:00:00Z"
 }
