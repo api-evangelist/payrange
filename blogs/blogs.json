@@ -2,6 +2,27 @@
   "repo": "payrange",
   "feeds": [
     {
+      "source": "https://payrange.com/blog/",
+      "feed_url": "https://payrange.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.payrange.com/blog/",
+      "feed_url": "https://www.payrange.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://payrange.com/feed/",
+      "feed_url": "https://payrange.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://support.payrange.com/hc/en-us/categories/360006635452-Operator-Support",
       "feed_url": "https://support.payrange.com/hc/en-us/categories/360006635452-Operator-Support",
       "title": "",
@@ -10,5 +31,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
